@@ -10,7 +10,7 @@ We welcome other developers to participate in the development and testing of sui
 ## Install
 
 ```sh
-go get github.com/coming-chat/go-sui
+go get github.com/laudevops/go-sui
 ```
 
 
@@ -20,7 +20,7 @@ go get github.com/coming-chat/go-sui
 ### Account
 
 ```go
-import "github.com/coming-chat/go-sui/account"
+import "github.com/laudevops/go-sui/account"
 
 // Import account with mnemonic
 acc, err := account.NewAccountWithMnemonic(mnemonic)
